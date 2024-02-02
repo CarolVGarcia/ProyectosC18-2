@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Color de fondo para toda la página */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.heading-primary {
+    color: #ff69b4; /* Rosa vívido */
+    margin-bottom: 20px;
+}
+
+/* Botón azul */
+.btn-blue {
+    background-color: #6495ed; /* Azul de acero */
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: #4169e1; /* Azul real al pasar el ratón */
+}
+
+/* Botón rosa */
+.btn-pink {
+    background-color: #ff69b4; /* Rosa vívido */
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: #ff1493; /* Rosa profundo al pasar el ratón */
+}
+
+/* Botón verde */
+.btn-green {
+    background-color: #32cd32; /* Verde lima */
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: #228b22; /* Verde bosque al pasar el ratón */
+}
+
+.response-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* Blanco */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.response-box {
+    padding: 10px;
+    background-color: #f0f8ff; /* Azul alice */
+    border-radius: 5px;
+    margin-top: 10px;
+}
