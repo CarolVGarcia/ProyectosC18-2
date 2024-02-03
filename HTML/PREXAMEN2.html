@@ -3,42 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRE-EXAMMEN 2t</title>
-    <link rel="stylesheet" href="/CSS/EstilosPE2.css">
+    <title>Información basica de un país</title>
 </head>
 <body>
-    <div class="contenedor">
-        <center>
-            <head>
-                <h1>Información basica de un país</h1>
-            </head>
+    <center>
+        <h1>Información basica de un país</h1>
+        <label for="countryName">Nombre del país:</label>
+        <input type="text" id="countryName">
+        <button id="searchButton">Buscar</button>
     
-            <br>
+        <div>
+            <label for="capital">Capital:</label>
+            <span id="capital"></span>
+        </div>
     
-            <div>
-                <label for="nmPais">Nombre del país: </label>
-                <input type="text" id="nmPais">
-                <button id="btmBuscar">Buscar</button>
-            </div>
-    
-            <br>
-    
-            <br>
-    
-            <div>
-    
-                <label for="">Capital: </label>
-                <br>
-                <br>
-                <label for="">Lenguaje: </label>
-    
-    
-            </div>
-    
-    
-        </center>
+        <div>
+            <label for="language">Lenguaje:</label>
+            <span id="language"></span>
+        </div>
 
-    </div>
+        <button id="clearButton">Limpiar</button> 
+        
+    
+    </center>
 
+   
 </body>
+    <script src="/JAVASCRIPT/appPreExa2.js"></script>
 </html>
