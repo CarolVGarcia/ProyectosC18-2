@@ -4,37 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obtener Datos de Usuario</title>
+    <link rel="stylesheet" href="/CSS/EstilosPE1.css">
 </head>
 <body>
-    <center>
-        <h1>Obtener Datos de Usuario</h1>
-    <label for="userId">ID de Usuario:</label>
-    <input type="text" id="userId">
-    <button id="buscarBtn">Buscar</button>
+    <center class="contenedor">
+        <div>
+            <h1>Vendedores</h1>
+            <label for="userId">ID de Usuario:</label>
+            <input type="text" id="userId">
+            <button id="buscarBtn">Buscar</button>
+        
+            <div id="resultado">
+                <br>
+                <br>
+                <label for="nombre">Nombre:</label> 
+                <input type="text" id="nombre">
+                <br>
+                <br>
+                <label for="nombreUsuario">Nombre de Usuario:</label> 
+                <input type="text" id="nombreUsuario">
+                <br>
+                <br>
+                
+                    <h2>Domicilio :</h2>  
+            
+                <label for="calle">Calle:</label> 
+                <br>
+                <input type="text" id="calle">
+                <br>
+                <label for="numero">Número:</label> 
+                <br>
+                <input type="text" id="numero">
+                <br>
+                <label for="ciudad">Ciudad:</label> 
+                <br>
+                <input type="text" id="ciudad">
+            </div>
+        </div>
 
-    <div id="resultado">
-        <br>
-        <br>
-        <label for="nombre" >Nombre:</label> 
-        <label for="nombre" id="nombre"></label>
-        <br>
-        <br>
-        <label for="nombreUsuario" >Nombre de Usuario:</label> 
-        <label for="nombreUsuario" id="nombreUsuario"></label>
-        <br>
-        <br>
-
-        <h3>Domicilio: </h3>
-
-       <label for="calle" >Calle:</label> 
-       <label for="calle" id="calle"></label>
-        <br>
-        <label for="numero" >Número:</label> 
-        <label for="numero" id="numero"></label>
-        <br>
-        <label for="ciudad" >Ciudad:</label> 
-        <label for="ciudad" id="ciudad"></label>
-    </div>
     </center>
 </body>
 <script src="/JAVASCRIPT/appPreExa1.js"></script>

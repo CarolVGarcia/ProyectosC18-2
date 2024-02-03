@@ -1,12 +1,7 @@
 document.getElementById("buscarBtn").addEventListener("click", buscarUsuario);
 
 function buscarUsuario() {
-    var userId = document.getElementById("userId").value.trim(); 
-    if (!/^\d+$/.test(userId)) { 
-        alert("Por favor, ingresa solo números para buscar.");
-        return; 
-    }
-    
+    var userId = document.getElementById("userId").value;
     var url = `https://jsonplaceholder.typicode.com/users/${userId}`;
 
     fetch(url)
@@ -21,14 +16,14 @@ function buscarUsuario() {
         })
         .catch(error => {
             console.error('Error:', error);
-            document.getElementById("resultado").innerText = "Error: " + error.message;
+            alert("Error: " + error.message);
         });
 }
 
 function mostrarDatosUsuario(usuario) {
-    document.getElementById("nombre").innerText = usuario.name;
-    document.getElementById("nombreUsuario").innerText = usuario.username;
-    document.getElementById("calle").innerText = usuario.address.street;
-    document.getElementById("numero").innerText = usuario.address.suite;
-    document.getElementById("ciudad").innerText = usuario.address.city;
+    document.getElementById("nombre").value = usuario.name;
+    document.getElementById("nombreUsuario").value = usuario.username;
+    document.getElementById("calle").value = usuario.address.street;
+    document.getElementById("numero").value = usuario.address.suite;
+    document.getElementById("ciudad").value = usuario.address.city;
 }
