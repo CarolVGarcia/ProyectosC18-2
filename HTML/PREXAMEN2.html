@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Información basica de un país</title>
+    <link rel="stylesheet" href="/CSS/EstilosPE2.css">
 </head>
 <body>
     <center>
-        <h1>Información basica de un país</h1>
-        <label for="countryName">Nombre del país:</label>
-        <input type="text" id="countryName">
-        <button id="searchButton">Buscar</button>
+        <div class="container">
+            <h1>Información básica de un país</h1>
+            <div class="input-container">
+                <label for="countryName">Nombre del país:</label>
+                <input type="text" id="countryName">
+                <button id="searchButton">Buscar</button>
+                <button id="clearButton">Limpiar</button>
+            </div>
     
-        <div>
-            <label for="capital">Capital:</label>
-            <span id="capital"></span>
+            <div class="info-container">
+                <div>
+                    <label for="capital">Capital:</label>
+                    <span id="capital"></span>
+                </div>
+                <div>
+                    <label for="language">Lenguaje:</label>
+                    <span id="language"></span>
+                </div>
+            </div>
         </div>
-    
-        <div>
-            <label for="language">Lenguaje:</label>
-            <span id="language"></span>
-        </div>
-
-        <button id="clearButton">Limpiar</button> 
-        
     
     </center>
 
